@@ -1,0 +1,70 @@
+html {font-size: 20px;}
+
+/*Almennt útlit á síðu, bil milli hluta og þess háttar*/
+section {padding-top: 1em;}
+section {padding-bottom: 1em;}
+section.column {padding-top: 0em;}
+section.column {border-bottom: 1px solid #000;}
+section.row {border-bottom: 1px solid #000;}
+section.box-in-box {border-bottom: 1px solid #000;}
+section.text {border-bottom: 1px solid #000;}
+
+/*Útlit á dálkhluta*/
+section.column > div > div {border: 1px solid #000;
+                            height: 5em;
+                            width: 5em;
+                            padding: 1em;
+                            margin-top: 1em;
+                            margin-bottom: 1em;
+                            background-color: #999999;}
+section.column > div > div:nth-child(2n-1) {margin-left: 2.5em;
+                                            background-color: #ff00ff;}
+section.column > div > div > strong {font-size: 1.5em;}
+
+/*Útlit á raðarhluta*/
+section.row > div {display: table;
+                   border-spacing: 1em;}
+section.row > div > div.box {display: table-cell;}
+section.row > div {background-color: #aaaaaa;}
+section.row > div > div {border: 1px solid #000;
+                         height: 5em;
+                         width: 5em;
+                         padding: 1em;
+                         margin: 1em;}
+section.row > div > div:nth-child(2n) {background-color: #ff00ff;}
+section.row > div > div:nth-child(2n -1) > strong {font-size: 0.5em;}
+
+/*Útlit á box in box hlutanum*/
+section.box-in-box > div {max-width: 20em;
+                          border: 1px solid #000;
+                          background-color: #999999;
+                          padding: 1em;
+                          margin-left: auto;
+                          margin-right: auto;}
+section.box-in-box > div > div {border: 1px solid #000;
+                                background-color: #cccccc;
+                                padding: 2em;}
+section.box-in-box > div > div > div {border: 1px solid #000;
+                                      background-color: #ffffff;
+                                      padding: 3em;}
+
+/*Útlit á textahluta*/
+section.text > div:before {content: "Eftirfarandi texti kallast \"Lorem ipsum\"";
+                           border-bottom: 1px solid #0000ff;
+                           padding-bottom: 1em;}
+section.text > div:after {content: "Takk fyrir að lesa";
+                          border-top: 1px solid #0000ff;
+                          padding-top: 1em;}
+section.text > div > p {padding-top: 1em;
+                        padding-bottom: 1em;}
+section.text > div > p::first-letter {font-size: 1.5em;}
+section.text > div > p::first-line {font-size: 1.35em;}
+
+/*Útlit á takkahluta*/
+section.buttons > div > button {font-size: 1em;
+                                padding: 0.5em;}
+section.buttons > div > button:hover {padding: 1em;}
+section.buttons > div > button:focus {font-size: 2em;}
+section.buttons > div > button:nth-child(1):focus {font-size: 2em;}
+section.buttons > div > button:nth-child(2):focus {font-size: 3em;}
+section.buttons > div > button:nth-child(3):focus {font-size: 4em;}
