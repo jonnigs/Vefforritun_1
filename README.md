@@ -7,7 +7,7 @@ Projects that I made in the course Vefforritun 1 (Web programing 1)
 ### Stórt verkefni 1
 
 CSS (Sass) project that aims to be as close to the look of a functioning website as possible. Fully web responsive and made on a grid.  
-[The GitHub repo for the project](https://github.com/jonnigs/Stort-verkefni-1-Vefforritun0).  
+[The GitHub repo for the project](https://github.com/jonnigs/Stort-verkefni-1-Vefforritun).  
 [Running solution](https://notendur.hi.is/~jgs7/vefforritun/stort-verkefni-1/).
 
 ### Verkefni 10
