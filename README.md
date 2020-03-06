@@ -2,11 +2,19 @@
 
 Projects that I made in the course Vefforritun 1 (Web programing 1)
 
+### Stórt verkefni 2
+
+### Stórt verkefni 1
+
+CSS (Sass) project that aims to be as close to the look of a functioning website as possible. Fully web responsive and made on a grid.  
+[The GitHub repo for the project](https://github.com/jonnigs/Stort-verkefni-1-Vefforritun0).  
+[Running solution](https://notendur.hi.is/~jgs7/vefforritun/stort-verkefni-1/).
+
 ### Verkefni 10
 
-Fourth JavaScript project. A countdown that is saved in local storage. If local storage is empty then the user can make a new counter. He can enter a name for the counter, a date and time. If there is something in the local storage then the coundown is displayed and updates live. Since the countdown is saved in local storage the page can be refreshed or exited without losing the countdown.
+Fourth JavaScript project. A countdown that is saved in local storage. If local storage is empty then the user can make a new counter. He can enter a name for the counter, a date and time. If there is something in the local storage then the coundown is displayed and updates live. Since the countdown is saved in local storage the page can be refreshed or exited without losing the countdown.  
 [The GitHub repo for the project](https://github.com/jonnigs/Vefforritun-1-Verkefni-10).  
-[(not)Running solution](https://notendur.hi.is/~jgs7/vefforritun/verkefni10/).
+[Running solution](https://notendur.hi.is/~jgs7/vefforritun/verkefni10/).
 
 ### Verkefni 9
 
