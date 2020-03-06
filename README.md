@@ -2,9 +2,20 @@
 
 Projects that I made in the course Vefforritun 1 (Web programing 1)
 
+### Verkefni 10
+
+### Verkefni 9
+
+### Verkefni 8
+
+Second JavaScript project. Inserts new DOM elements into the HTML using JavaScipt. The user enters in his heading and text and selects if he wants the heading to be all caps or if he wants the colors inverted.
+[The GitHub repo for the project](https://github.com/jonnigs/Vefforritun-1-Verkefni-8).  
+[Running solution](https://notendur.hi.is/~jgs7/vefforritun/verkefni8/).
+
 ### Verkefni 7
 
-First JavaScript project. Plays a game with the Alert function. The user guesses a number and gets back a clue on how close he was.  
+First JavaScript project. Plays a game with the Alert function. The user guesses a number and gets back a clue on how close he was.
+[The GitHub repo for the project](https://github.com/jonnigs/Vefforritun-1-Verkefni-7).  
 [Running solution](https://notendur.hi.is/~jgs7/vefforritun/verkefni7/).
 
 ### Verkefni 6
