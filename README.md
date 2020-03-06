@@ -4,6 +4,10 @@ Projects that I made in the course Vefforritun 1 (Web programing 1)
 
 ### Stórt verkefni 2
 
+Final project in Vefforritun 1 (Web programing 1). This project uses most of the features I learned throughout the semester. The main page reads from a json file and displays the data accordingly using JavaScript. The second page reads the params from the URL and displays the correct video. The look of the page is written with Sass and node.js was used in various ways throughout the project, such as es-lint, stylelint ans browser-sync.  
+[The GitHub repo for the project](https://github.com/jonnigs/Stort-verkefni-2-Vefforritun).  
+[Running solution](https://notendur.hi.is/~jgs7/vefforritun/stort-verkefni-2/).
+
 ### Stórt verkefni 1
 
 CSS (Sass) project that aims to be as close to the look of a functioning website as possible. Fully web responsive and made on a grid.  
