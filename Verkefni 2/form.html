@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="is">
+  <head>
+    <meta charset="utf-8">
+    <title>Formsíða</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Forsíða</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="tafla.html">Tafla</a></li>
+        <li><a href="about.html">Texti</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Þetta er formsíðan</h1>
+      <form method="get" action="./form.html">
+
+      <fieldset>
+
+        <legend>Persónuupplýsingar</legend>
+        <label for="nafn">Nafn:</label>
+        <input type="text" id="nafn" name="notendanafn" required>
+
+        <label for="email">Email:</label>
+        <input aria-describedby="emailtext" type="email" id="email" name="email">
+        <span id="emailtext" aria-hidden="true">Frekari upplýsingar verða sendar á netfang</span>
+
+      </fieldset>
+
+      <fieldset>
+
+          <legend>Spurningar</legend>
+
+          <fieldset>
+            <legend>Veldu tegund af þjónustu</legend>
+            <label>
+              <input name="thjonusta" type="radio" value="foo">
+              Fooþjónusta
+            </label>
+            <label>
+              <input name="thjonusta" type="radio" value="bar">
+              Barþjónusta
+            </label>
+            <label>
+              <input name="thjonusta" type="radio" value="foobar">
+              Foobarþjónusta
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Ánægja með þjónustu</legend>
+            <label>
+              <input name="anaegja" type="radio" value="1">
+              1
+            </label>
+            <label>
+              <input name="anaegja" type="radio" value="2">
+              2
+            </label>
+            <label>
+              <input name="anaegja" type="radio" value="3">
+              3
+            </label>
+            <label>
+              <input name="anaegja" type="radio" value="4">
+              4
+            </label>
+            <label>
+              <input name="anaegja" type="radio" value="5">
+              5
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Halda áfram í þjónustu</legend>
+            <label>
+              <input name="afram" type="checkbox" value="afram" checked>
+              Áframhaldandi þjónusta
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Athugasemdir</legend>
+            <label>
+              <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+              Athugasemdir
+            </label>
+          </fieldset>
+
+          <button type="submit">Senda</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
