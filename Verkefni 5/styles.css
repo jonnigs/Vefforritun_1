@@ -1,0 +1,186 @@
+
+/* setjum box-sizing: border-box; á allt */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Lato' , 'Helvetica' , 'Arial' , sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+
+  /* fjarlægjum margin og padding */
+  margin: 0;
+  padding: 0;
+}
+
+/* TODO útfæra verkefni 5 */
+
+.heading {
+  font-family: 'Merriweather' , 'Georgia' , serif;
+}
+
+.heading--one {
+  font-size: 3em;
+  border-bottom: none;
+}
+
+.heading--two {
+  font-size: 2em;
+  border-bottom: none;
+}
+
+.heading--three {
+  font-size: 1em;
+  border-bottom: none;
+}
+
+/*Takkar*/
+
+.button {
+  font-size: 1em;
+  max-width: 16em;
+  padding: 0.625em 0.3125em;
+  border: 1px solid #666;
+  border-radius: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #eee;
+  background-color: #666;
+  font-family: 'Lato' , 'Helvetica' , 'Arial' , sans-serif;
+  cursor: pointer;
+  width: 25%;
+}
+
+div.sg-example > a {
+  text-align: center;
+  text-decoration: none;
+}
+
+ div > span {
+   text-align: center;
+ }
+
+.button:hover {
+  background-color: #333;
+}
+
+.button--inverted {
+  background-color: #eee;
+  color: #666;
+}
+
+.button--disabled {
+  background-color: #eee;
+  border: #eee;
+  color: #999;
+}
+
+.button--disabled:hover {
+  background-color: #eee;
+  cursor: default;
+}
+
+/*Kort*/
+.card {
+  display: flex;
+  min-width: 12.5em;
+  max-width: 50em;
+  overflow: hidden;
+  border-radius: 3px;
+  background-color: #eee;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card__image {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.card__content {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.9375em;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: 'Merriweather', 'Georgia', serif;
+  margin-bottom: 0.9375em;
+}
+
+section > h2 {
+  font-family: 'Lato' , 'Helvetica' , 'Arial' , sans-serif;
+}
+
+h3 {
+  word-wrap: break-word;
+}
+
+.card__image {
+  min-width: 12.5em;
+}
+
+.card__heading {
+  font-size: 1.5em;
+  font-family: 'Merriweather', 'Georgia', serif;
+  margin-bottom: 0.9375em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.card__text {
+  line-height: 150%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.card__content > .button {
+  align-self: flex-end;
+  margin-top: 1.5em;
+  width: 70%;
+}
+
+/*Media queries fyrir mjóa útgáfu af síðunni (geri öfugt næst)*/
+@media (max-width:800px) {
+  .card {
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .sg-example {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+
+  }
+
+  .button {
+    width: 70%;
+  }
+
+  .card__content > .button {
+
+    margin: auto;
+  }
+}

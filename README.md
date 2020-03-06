@@ -4,9 +4,19 @@ Projects that I made in the course Vefforritun 1 (Web programing 1)
 
 ### Verkefni 7
 
+First JavaScript project. Plays a game with the Alert function. The user guesses a number and gets back a clue on how close he was.  
+[Running solution](https://notendur.hi.is/~jgs7/vefforritun/verkefni7/).
+
 ### Verkefni 6
 
+Fourth CSS project, now working with Sass and a grid. Minor changes from project 5, scalable for moblie. The main input was to work with Node.js, browser sync, stylelint og node-sass.
+[Running solution 1](https://notendur.hi.is/~jgs7/vefforritun/verkefni6/).  
+[Running solution 2](https://notendur.hi.is/~jgs7/vefforritun/verkefni6/page.html).
+
 ### Verkefni 5
+
+Third CSS project.
+[Running solution](https://notendur.hi.is/~jgs7/vefforritun/verkefni5/).
 
 ### Verkefni 4
 
