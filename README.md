@@ -4,6 +4,10 @@ Projects that I made in the course Vefforritun 1 (Web programing 1)
 
 ### Verkefni 10
 
+Fourth JavaScript project. A countdown that is saved in local storage. If local storage is empty then the user can make a new counter. He can enter a name for the counter, a date and time. If there is something in the local storage then the coundown is displayed and updates live. Since the countdown is saved in local storage the page can be refreshed or exited without losing the countdown.
+[The GitHub repo for the project](https://github.com/jonnigs/Vefforritun-1-Verkefni-10).  
+[(not)Running solution](https://notendur.hi.is/~jgs7/vefforritun/verkefni10/).
+
 ### Verkefni 9
 
 Third JavaScript project. Uses web scraping on apis.is to fetch info on cars depending on the registration number.  
